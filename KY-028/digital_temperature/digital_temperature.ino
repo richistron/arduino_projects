@@ -52,7 +52,7 @@ void loop() {
   Serial.print(digitalVal);
   Serial.println(" ");
   
-  if (temp > 37.00) {
+  if (temp > 32.00) {
     digitalWrite(12, HIGH);
     digitalWrite(8, LOW);
   } else {
