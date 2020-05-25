@@ -44,13 +44,12 @@ void loop() {
   float digitalVal = digitalRead(pin2);
   float temp = getTemp(val);
   
-  Serial.print("Temperature: ");
-  Serial.print(temp);
-  Serial.println(" C");
-
-  Serial.print("digital read: ");
-  Serial.print(digitalVal);
-  Serial.println(" ");
+//  Serial.print("Temperature: ");
+//  Serial.print(temp);
+//  Serial.println(" C");
+//  Serial.print("digital read: ");
+//  Serial.print(digitalVal);
+//  Serial.println(" ");
   
   if (temp > 32.00) {
     digitalWrite(12, HIGH);
